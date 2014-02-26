@@ -1,0 +1,92 @@
+var board = "";
+var size = 210;
+
+for(j=0;j<size/5;j++) {
+
+for( i=0; i < 5; i++) {
+
+	var space = Math.random()*26;
+
+		if(space<1) {
+			board += "a";
+		}
+		
+		else if(space<2) {
+			board += "b";
+		}
+		
+		else if(space<3) {
+			board += "c";
+		}
+		else if(space<4) {
+			board += "d";
+		}
+		else if(space<5) {
+			board += "e";
+		}
+		else if(space<6) {
+			board += "f";
+		}
+		else if(space<7) {
+			board += "g";
+		}
+		else if(space<8) {
+			board += "h";
+		}
+		else if(space<9) {
+			board += "i";
+		}
+		else if(space<10) {
+			board += "j";
+		}
+		else if(space<11) {
+			board += "k";
+		}
+		else if(space<13) {
+			board += "m";
+		}
+		else if(space<14) {
+			board += "n";
+		}
+		else if(space<15) {
+			board += "o";
+		}
+		else if(space<16) {
+			board += "p";
+		}
+		else if(space<17) {
+			board += "q";
+		}
+		else if(space<18) {
+			board += "r";
+		}
+		else if(space<19) {
+			board += "s";
+		}
+		else if(space<20) {
+			board += "t";
+		}
+		else if(space<21) {
+			board += "u";
+		}
+		else if(space<22) {
+			board += "u";
+		}
+		else if(space<23) {
+			board += "v";
+		}
+		else if(space<24) {
+			board += "w";
+		}
+		else if(space<25) {
+			board += "y";
+		}
+		else {
+			board += "z";
+		}
+}
+
+board += " ";
+}
+
+console.log(board);
